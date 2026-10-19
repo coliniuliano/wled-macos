@@ -1,0 +1,15 @@
+# Build output
+build/
+*.app
+
+# Intermediate icon render; AppIcon.icns is committed, and
+# Tools/make-icon.swift regenerates both.
+Resources/AppIcon.iconset/
+
+# macOS
+.DS_Store
+
+# Swift / SPM (not used today, but harmless to guard)
+.build/
+*.swiftmodule
+*.dSYM/
